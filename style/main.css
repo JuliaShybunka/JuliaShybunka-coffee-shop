@@ -1,0 +1,386 @@
+body,
+body a{
+    font-family: 'Open Sans';
+    color: #4F4F4F;
+    font-style: normal;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+.default-btn{
+    background:  #17513F;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 22px;
+    color: #fff;
+    border: none;
+    display: inline block;
+    border: 1px solid #17513F ;
+}
+
+.default-btn__white{
+    background-color: #fff;
+    border: 1px solid #17513F ;
+}
+
+.default-btn--banner{
+    padding: 16px 22px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navbar-logo{
+    width: 48px;
+    height: 48px;
+}
+.navbar{
+    background-color: transparent;
+}
+
+.nav-link{
+    font-size: 14px;
+    margin-right: 32px;
+    line-height: 18px;
+    display: inline-block;
+    position: relative;
+}
+
+.nav-link__dash{
+    width: 24px;
+    height: 1px;
+    background-color: #4F4F4F;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.nav-link:hover, .nav-link__active{
+    font-weight: 700;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+.nav-link:hover .nav-link__dash{
+    opacity: 1;
+}
+
+.nav-icon img{
+    width: 24px;
+    height: 24px;
+}
+
+.nav-icon {
+    margin-right: 35px;
+}
+
+.container{
+    width: 1112px;
+    margin: 0 auto;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url('../media/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-block{
+    margin-top: 90px;
+    max-width: 440px;
+}
+
+.banner-title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.banner-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.about{
+    padding: 120px 0;
+}
+
+.about-block{
+    width: 536px;
+}
+
+.about-img{
+    width: 248px;
+    height: 248px;
+}
+
+.about-title{
+font-size: 36px;
+font-weight: 700;
+line-height: 47px;
+margin-bottom: 16px;
+
+}
+
+.about-text{
+margin-bottom: 24px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+.about-block button{
+    margin-right: 24px;
+}
+
+.shop{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.shop-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.shop-subtitle{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 16px;
+}
+
+.shop-link{
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+margin-bottom: 80px;
+}
+
+.shop-item{
+    width: 248px;
+}
+
+.shop-item__type{
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+text-transform: uppercase;
+margin-bottom: 8px;
+}
+
+.shop-item__title{
+margin-bottom: 16px;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+}
+
+.shop-item__price{
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+
+
+}
+
+.shop-products{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descr{
+    margin-top: 120px;
+    padding: 40px 0;
+    max-width: 728px;
+    margin: 120px auto 0;
+}
+
+.descr-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+.descr-text{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.descr-block{
+    display: flex;
+}
+
+.descr-block__image{
+    max-width: 440px;
+    margin-right: 40px;
+}
+
+.descr-item:first-child{
+    margin-bottom: 28px;
+}
+
+.descr-item__title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.descr-item__address, .descr-item__work{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+
+.descr-item span{
+    display: block;
+}
+
+.contact{
+    max-width: 728px;
+    margin: 120px auto 120px;
+}
+
+.contact-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    color:  #373F41;
+
+}
+
+.contact-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.contact-form__input{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: 1px solid #737B7D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 14.5px 11px;
+}
+
+.contact-form__btn{
+    float: right;
+}
+
+.footer{
+    margin-top: 120px;
+    background-color: #17513F;
+    padding: 56px 0 40px;
+    color: #fff;
+}
+
+.footer-top__title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav__link {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-nav__link a{
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+
+}
+
+.footer-top__navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    width: 152px;
+}
+
+.footer-nav__title{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 16px;
+}
+
+.footer-nav__title{
+    position: relative;
+}
+
+.footer-nav__title--line{
+    width: 24px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.footer-bottom{
+    margin-top: 104px;
+}
+
+.footer-bottom, .footer-bottom__right--item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom__left{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.footer-bottom__right--item a{
+    width: 152px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: block;
+
+}
+
+.footer-bottom__right--item:first-child{
+    margin-right: 40px;
+}
